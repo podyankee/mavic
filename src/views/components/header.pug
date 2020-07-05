@@ -1,0 +1,22 @@
+header.header
+	.container
+		.header__inner
+			a(href="#").logo
+				picture.logo__img
+					source(srcset="assets/images/logo-mobile.png" media="max-width: 640px")
+					img(src="assets/images/logo.png", alt="")
+			nav.menu
+				ul.menu__list
+					li.menu__list-item
+						a(href="#").menu__list-link О дроне
+					li.menu__list-item
+						a(href="#").menu__list-link Преимущества
+					li.menu__list-item
+						a(href="#").menu__list-link Характеристики
+					li.menu__list-item
+						a(href="#").menu__list-link Вопросы
+					li.menu__list-item
+						a(href="#").menu__list-link Контакты
+			.header__info
+				button.header__btn Купить
+				a(href="tel:80505676767").header__phone 8 (050) 567 67 67

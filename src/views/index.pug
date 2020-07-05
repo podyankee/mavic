@@ -1,0 +1,21 @@
+extends ./templates/_template.pug
+
+block title
+	title Mavic
+
+block basicSeo
+	meta(name='description' content='Home Page')
+	meta(name='keywords', content='main page, home page')
+	meta(name='author' content='Kostyantin')
+
+block links
+	link(href='')
+
+block content
+	include components/header
+	include components/section-top
+	include components/section-products
+	include components/section-benefits
+	include components/section-specification
+	include components/section-questions
+	include components/section-contacts
