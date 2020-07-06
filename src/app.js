@@ -1,11 +1,7 @@
-/* src/app.js */
-// exemple - require("scripts/demo");
+import '../node_modules/slick-slider/slick/slick.css';
+import '../node_modules/slick-slider/slick/slick';
 
-// $(document).ready(() => {
-//   console.log("Ready!");
-
-//   require("scripts/demo");
-// });
+import './assets/scripts/common'
 
 // Styles
 import 'normalize.css';
